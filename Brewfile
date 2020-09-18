@@ -20,7 +20,6 @@ brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe'
 brew 'svn'
 brew 'telnet'
 brew 'trash' # Manage the Trash bin
@@ -31,18 +30,21 @@ brew 'zlib' # Needed for Memcached
 # Development
 brew 'libmemcached'
 brew 'memcached'
-brew 'mysql'
+# brew 'mysql'
 brew 'nginx'
-brew 'node'
-brew 'redis'
+# brew 'redis'
 brew 'yarn'
 
 # Apps
+cask 'brackets'
+cask 'docker'
+cask 'dropbox'
+cask 'google-chrome'
 cask 'gpg-suite'
-cask 'java'
+cask 'jetbrains-toolbox'
+cask 'microsoft-teams'
 cask 'slack'
-
-
+cask 'spotify'
 
 # Mac App Store
 # mas 'Byword', id: 420212497
