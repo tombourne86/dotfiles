@@ -32,7 +32,7 @@ brew 'libmemcached'
 brew 'memcached'
 # brew 'mysql'
 brew 'nginx'
-# brew 'redis'
+brew 'redis'
 brew 'yarn'
 
 # Apps

@@ -21,6 +21,10 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
 
+# Create useful directories
+mkdir $HOME/Workspace
+mkdir $HOME/Screenshots
+
 # Clone Github repositories
 #./clone.sh
 
