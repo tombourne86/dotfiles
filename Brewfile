@@ -43,6 +43,7 @@ cask 'google-chrome'
 cask 'gpg-suite'
 cask 'jetbrains-toolbox'
 cask 'microsoft-teams'
+cask 'postman'
 cask 'slack'
 cask 'spotify'
 
