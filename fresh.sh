@@ -27,6 +27,7 @@ mkdir $HOME/Screenshots
 
 # Clone Github repositories
 #./clone.sh
+git clone https://github.com/altercation/solarized.git $HOME/.dotfiles/solarized
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
