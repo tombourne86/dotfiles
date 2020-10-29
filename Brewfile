@@ -30,21 +30,26 @@ brew 'zlib' # Needed for Memcached
 brew 'libmemcached'
 brew 'memcached'
 # brew 'mysql'
+brew 'maven'
 brew 'nginx'
 brew 'redis'
-brew 'yarn'
+# brew 'yarn'
 
 # Apps
+cask 'adobe-acrobat-reader'
 cask 'brackets'
 cask 'docker'
 cask 'dropbox'
 cask 'google-chrome'
 cask 'gpg-suite'
 cask 'jetbrains-toolbox'
-cask 'microsoft-teams'
+cask 'microsoft-office'
+cask 'notion'
 cask 'postman'
 cask 'slack'
 cask 'spotify'
+cask 'tunnelblick'
+cask 'zoomus'
 
 # Mac App Store
 # mas 'Byword', id: 420212497

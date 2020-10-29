@@ -24,6 +24,7 @@ mkdir $HOME/Sites
 # Create useful directories
 mkdir $HOME/Workspace
 mkdir $HOME/Screenshots
+mkdir $HOME/.ssh
 
 # Clone Github repositories
 #./clone.sh
@@ -36,6 +37,9 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Installs node version manager and updates .zshrc
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+# source .macos
