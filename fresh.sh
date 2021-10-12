@@ -15,7 +15,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Set default MySQL root password and auth type.
-mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+#mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
@@ -42,4 +42,4 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-# source .macos
+source .macos

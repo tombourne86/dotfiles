@@ -24,6 +24,7 @@ brew 'svn'
 brew 'telnet'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
+brew 'warrensbox/tap/tfswitch' # terraform version manager
 brew 'zlib' # Needed for Memcached
 
 # Development
@@ -49,6 +50,7 @@ cask 'postman'
 cask 'slack'
 cask 'spotify'
 cask 'tunnelblick'
+cask 'visual-studio-code'
 cask 'zoomus'
 
 # Mac App Store
