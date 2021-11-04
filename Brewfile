@@ -20,6 +20,7 @@ brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'pyenv' # python version manager
 brew 'svn'
 brew 'telnet'
 brew 'trash' # Manage the Trash bin
@@ -49,7 +50,7 @@ cask 'notion'
 cask 'postman'
 cask 'slack'
 cask 'spotify'
-cask 'tunnelblick'
+# cask 'tunnelblick'
 cask 'visual-studio-code'
 cask 'zoomus'
 
