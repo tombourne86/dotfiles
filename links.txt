@@ -1,0 +1,10 @@
+# my stuff
+https://github.com/
+https://www.dropbox.com/login?cont=https%3A%2F%2Fwww.dropbox.com%2Fh
+
+# useful coding help/docs
+https://sethrobertson.github.io/GitFixUm/fixup.html
+https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec
+http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/
+https://www.freeformatter.com/xml-formatter.html
+https://www.freeformatter.com/json-formatter.html

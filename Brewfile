@@ -20,24 +20,26 @@ brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'pyenv' # python version manager
 brew 'svn'
 brew 'telnet'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
-brew 'warrensbox/tap/tfswitch' # terraform version manager
 brew 'zlib' # Needed for Memcached
+brew 'wget'
 
 # Development
 brew 'libmemcached'
 brew 'memcached'
 # brew 'mysql'
-brew 'maven'
+# brew 'maven'
 brew 'nginx'
+brew 'pyenv' # python version manager
 brew 'redis'
+brew 'warrensbox/tap/tfswitch' # terraform version manager
 # brew 'yarn'
 
 # Apps
+cask '1password'
 cask 'adobe-acrobat-reader'
 cask 'brackets'
 cask 'docker'
@@ -50,7 +52,6 @@ cask 'notion'
 cask 'postman'
 cask 'slack'
 cask 'spotify'
-# cask 'tunnelblick'
 cask 'visual-studio-code'
 cask 'zoomus'
 
