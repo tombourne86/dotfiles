@@ -56,5 +56,4 @@ cask 'visual-studio-code'
 cask 'zoomus'
 
 # Mac App Store
-# mas 'Byword', id: 420212497
-
+mas install 1278508951  # Trello
