@@ -56,4 +56,4 @@ cask 'visual-studio-code'
 cask 'zoomus'
 
 # Mac App Store
-mas install 1278508951  # Trello
+mas 'Trello', 1278508951
