@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -10,7 +9,6 @@ brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
-brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'gnupg2'
@@ -19,6 +17,8 @@ brew 'httpie'
 brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
+brew 'nvm'
+brew 'postgresql'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn'
 brew 'telnet'
@@ -30,13 +30,10 @@ brew 'wget'
 # Development
 brew 'libmemcached'
 brew 'memcached'
-# brew 'mysql'
-# brew 'maven'
 brew 'nginx'
 brew 'pyenv' # python version manager
 brew 'redis'
 brew 'warrensbox/tap/tfswitch' # terraform version manager
-# brew 'yarn'
 
 # Apps
 cask '1password'
@@ -50,10 +47,7 @@ cask 'jetbrains-toolbox'
 cask 'microsoft-office'
 cask 'notion'
 cask 'postman'
-cask 'slack'
+cask 'shift'
 cask 'spotify'
 cask 'visual-studio-code'
 cask 'zoomus'
-
-# Mac App Store
-mas 'Trello', 1278508951

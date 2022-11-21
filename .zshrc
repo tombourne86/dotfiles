@@ -2,7 +2,7 @@
 export DOTFILES=$HOME/.dotfiles
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -113,8 +113,14 @@ source $ZSH/oh-my-zsh.sh
 
 ###################################################################################
 
-# setup pyenv
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
+export AWS_REGION=eu-west-1
+
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew' # avoid brew accidentally linking against a Pyenv-provided Python
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completioneval "$(pyenv init -)"
+
+# setup pyenv
+eval "$(pyenv init --path)"
+
+export PYTHONPATH="python/src/:../../python/src:$PYTHONPATH"
