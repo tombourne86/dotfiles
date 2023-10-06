@@ -69,3 +69,42 @@ Enjoy your own Dotfiles!
 I first got the idea for starting this project by visiting the [Github does dotfiles](https://dotfiles.github.io/) project. Both [Zach Holman](https://github.com/holman/dotfiles) and [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) were great sources of inspiration. [Sourabh Bajaj](https://twitter.com/sb2nov/)'s [Mac OS X Setup Guide](http://sourabhbajaj.com/mac-setup/) proved to be invaluable. Thanks to [@subnixr](https://github.com/subnixr) for [his awesome Zsh theme](https://github.com/subnixr/minimal)! And lastly, I'd like to thank [Emma Fabre](https://twitter.com/anahkiasen) for [her excellent presentation on Homebrew](https://speakerdeck.com/anahkiasen/a-storm-homebrewin) which made me migrate a lot to a [`Brewfile`](./Brewfile) and [Mackup](https://github.com/lra/mackup).
 
 In general, I'd like to thank every single one who open-sources their dotfiles for their effort to contribute something to the open-source community. Your work means the world! :earth_africa: :heart:
+
+
+## Useful links
+
+https://www.freeformatter.com/json-formatter.html
+https://www.freeformatter.com/xml-formatter.html
+https://10minutemail.com/
+https://www.diffchecker.com/text-compare/
+https://www.epochconverter.com/
+
+https://sethrobertson.github.io/GitFixUm/fixup.html
+https://medium.com/@slamflipstrom/a-beginners-guide-to-squashing-commits-with-git-rebase-8185cf6e62ec
+
+https://benoitboure.com/securely-access-your-aws-resources-from-github-actions
+
+https://towardsdatascience.com/getting-started-with-python-pre-commit-hooks-28be2b2d09d5
+https://github.com/hastagAB/Awesome-Python-Scripts
+https://python.plainenglish.io/its-time-to-say-goodbye-to-these-obsolete-python-libraries-7c02aa77d84a
+https://www.b-list.org/weblog/2022/dec/19/boring-python-code-quality/
+
+https://medium.com/dailyjs/a-guide-to-deploying-your-react-app-with-aws-s3-including-https-a-custom-domain-a-cdn-and-58245251f081
+https://medium.com/geekculture/serve-your-react-app-with-aws-cloudfront-using-gitlab-and-terraform-322b2526943e
+https://levelup.gitconnected.com/freedom-from-create-react-app-how-to-create-react-apps-without-cra-27fadeb79c82
+https://www.aaron-powell.com/posts/2020-12-10-dynamic-forms-with-react-hooks/
+https://docs.cypress.io/guides/overview/why-cypress
+https://javascript.plainenglish.io/its-2022-please-don-t-just-use-console-log-anymore-217638337c7d
+https://www.smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/
+https://blog.harveydelaney.com/setting-up-a-mock-api-for-your-front-end-react-project/
+https://github.com/jxom/awesome-react-headless-components
+
+https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+
+https://blog.gruntwork.io/how-to-manage-terraform-state-28f5697e68fa
+
+https://www.kunalnagar.in/blog/send-github-dependabot-alerts-slack/
+
+http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/
+
+https://www.githubstatus.com/
