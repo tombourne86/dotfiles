@@ -3,6 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'warrensbox/tfswitch'
 
 # Binaries
 brew 'awscli'
@@ -33,7 +34,7 @@ brew 'memcached'
 brew 'nginx'
 brew 'pyenv' # python version manager
 brew 'redis'
-brew 'warrensbox/tap/tfswitch' # terraform version manager
+brew 'tfswitch' # terraform version manager
 
 # Apps
 cask '1password'
