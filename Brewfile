@@ -21,6 +21,7 @@ brew 'postgresql@14'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn'
 brew 'telnet'
+brew 'tmux'
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
@@ -38,7 +39,7 @@ brew 'warrensbox/tap/tfswitch' # terraform version manager
 cask '1password'
 cask 'anytype'
 cask 'adobe-acrobat-reader'
-cask 'brackets'
+cask 'coteditor'
 cask 'docker'
 cask 'dropbox'
 cask 'google-chrome'
