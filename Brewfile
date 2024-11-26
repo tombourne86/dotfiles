@@ -36,14 +36,15 @@ brew 'warrensbox/tap/tfswitch' # terraform version manager
 
 # Apps
 cask '1password'
+cask 'anytype'
 cask 'adobe-acrobat-reader'
 cask 'brackets'
 cask 'docker'
 cask 'dropbox'
 cask 'google-chrome'
 cask 'jetbrains-toolbox'
-# cask 'microsoft-office'
-# cask 'microsoft-teams'
+cask 'microsoft-office'
+cask 'microsoft-teams'
 cask 'notion'
 cask 'postman'
 cask 'shift'
