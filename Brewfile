@@ -18,6 +18,7 @@ brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'nvm'
+brew 'overmind'
 brew 'postgresql@14'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn'
